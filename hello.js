@@ -1,27 +1,80 @@
-/* let name ="sam"
-const age =39
-var city='oooo'
-
-console.log(name)
-console.log(age)
-console.log(city)
+// /* globle screenTop(var) */{
+// var a=49
+// console.log(a)
+// }
 
 
-const college='sammmmm'
-console.log(college)
- */
+// /* local scop(let) */
+// let s=45
+// console.log(s)
+
+// /* constantes (const) */
+// /* cant change the value */
+// const d=39
+// console.log(d)
+ 
+
+// var price =34
+// var prodect ='apple'
+// var tax =45
+// var total = price+tax
+// console.log(total)
+// console.log(prodect)
+
+
+// var fruitname="apple"
+// var count =5
+
+// var price=50
+
+// var total= count*price
+// console.log(fruitname)
+// console.log(total)
+
+// var name=sam
 
 
 
-let a=19;
-const b=34;
-var c=30;
+// function mobil(){
+//     console.log("samsang")
+//     console.log("iphone")
+//     console.log("appple")
+// }
+// mobil()
 
 
-a=34;
-b=34;
-c=300;
+// function samsang(){
+//     console.log("samsang")
+// }
+// samsang()
 
-console.log(a)
-console.log(b)
-console.log(c)
+
+// function add(a,b){
+//     console.log(a+b)
+// }
+
+// add(34,23)
+
+
+var factor="sam"
+var fplayer="samjayam"
+var fmovie="mapsr"
+
+function favourate(){
+
+    // factor="sam"
+    // fplayer="samjayam"
+    // fmovie="mapsr"
+
+    console.log('Favourate actor:'+ factor)
+    console.log("Favourate player: "+ fplayer)
+    console.log("Favourate movie :"+ fmovie)
+
+
+}
+favourate()
+// favourate("sam","samjayam","mapsr")
+
+console.log("testing")
+
+
