@@ -56,25 +56,34 @@
 // add(34,23)
 
 
-var factor="sam"
-var fplayer="samjayam"
-var fmovie="mapsr"
+// var factor="sam"
+// var fplayer="samjayam"
+// var fmovie="mapsr"
 
-function favourate(){
+// function favourate(){
 
     // factor="sam"
     // fplayer="samjayam"
     // fmovie="mapsr"
 
-    console.log('Favourate actor:'+ factor)
-    console.log("Favourate player: "+ fplayer)
-    console.log("Favourate movie :"+ fmovie)
+    // console.log('Favourate actor:'+ factor)
+    // console.log("Favourate player: "+ fplayer)
+    // console.log("Favourate movie :"+ fmovie)
 
 
+// }
+// favourate()
+// // favourate("sam","samjayam","mapsr")
+
+// console.log("testing")
+
+function area(l,b){
+
+    console.log(l*b)
 }
-favourate()
-// favourate("sam","samjayam","mapsr")
+area(7,8)
 
-console.log("testing")
+
+
 
 
