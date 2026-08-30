@@ -77,11 +77,43 @@
 
 // console.log("testing")
 
-function area(l,b){
+// function area(l,b){
 
-    console.log(l*b)
+//     console.log(l*b)
+// }
+// area(7,8)
+
+
+// function add(a,b){
+//     return(a+b)
+
+// }
+
+// var s=add(10,2)
+// console.log(s)
+
+//  var rani=true
+
+// if(true){
+//     console.log("Take an umberella")
+// }
+// else{
+//     console.log("Enjoy the rain")
+// }
+
+
+var  finish = true
+if(finish){
+    console.log("Great job")
 }
-area(7,8)
+else{
+    console.log("Finish your homework ")
+}
+
+
+
+
+
 
 
 
