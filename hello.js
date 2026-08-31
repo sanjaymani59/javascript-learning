@@ -102,15 +102,34 @@
 // }
 
 
-var  finish = true
-if(finish){
-    console.log("Great job")
+// var  finish = true
+// if(finish){
+//     console.log("Great job")
+// }
+// else{
+//     console.log("Finish your homework ")
+// }
+
+
+
+var num=50
+
+if (num%2==0){
+    console.log("even")
 }
 else{
-    console.log("Finish your homework ")
+    console.log("odd")
 }
 
 
+var word='a'
+
+if(word== a | e|i|o|u){
+    console.log("vowel ")
+}
+else{
+    console.log("consonant")
+}
 
 
 
