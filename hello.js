@@ -112,29 +112,38 @@
 
 
 
-var num=50
+// var num=50
 
-if (num%2==0){
-    console.log("even")
+// if (num%2==0){
+//     console.log("even")
+// }
+// else{
+//     console.log("odd")
+// }
+
+
+// var word="aeoiu"
+
+// if(word== "aoiu" ){
+//     console.log("vowel ")
+// }
+// else{
+//     console.log("consonant")
+// }
+
+
+
+let score=[23,56,78,43,54];
+
+let higher=score[0];
+
+for (let i =1;i<score.length;i++){
+    if (score[i]> higher){
+        higher= score[i];
+
+    }
 }
-else{
-    console.log("odd")
-}
-
-
-var word='a'
-
-if(word== a | e|i|o|u){
-    console.log("vowel ")
-}
-else{
-    console.log("consonant")
-}
-
-
-
-
-
+console.log(higher)
 
 
 
