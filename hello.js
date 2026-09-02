@@ -133,17 +133,20 @@
 
 
 
-let score=[23,56,78,43,54];
+// let score=[23,56,78,43,54];
 
-let higher=score[0];
+// let higher=score[0];
 
-for (let i =1;i<score.length;i++){
-    if (score[i]> higher){
-        higher= score[i];
+// for (let i =1;i<score.length;i++){
+//     if (score[i]> higher){
+//         higher= score[i];
 
-    }
-}
-console.log(higher)
+//     }
+// }
+// console.log(higher)
 
+
+<h1>hello world</h1>
+<button>change</button>
 
 
