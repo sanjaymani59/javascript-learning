@@ -1,0 +1,47 @@
+<h1>Gusse The Number Form 1 To 10</h1>
+
+<input type="text" id="checknum">
+<button  onclick="Check()"> Check </button>
+
+<p id="result">your answer is correct! / Wrong!<p>
+
+
+<h2 id="Score">Your Score:</h2>
+
+<script>
+
+    var checknum =document.getElementById("checknum")
+    var result=document.getElementById("result")
+    var random=Math.floor(Math.random()*10)+1
+    var Score=document.getElementById("Score")
+    var totalscore=10
+
+    function Check(){
+        var enternum =checknum.value
+        if(enternum==random){
+
+            console.log("correct")
+            result.textContent="rigth"
+            alert("YOU GUSSED CORRECT")
+        }
+        else{
+            console.log("wrong")
+            result.textContent="Wrong"
+            totalscore=totalscore-1
+            Score.textContent="Score="+totalscore
+
+        }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+</script>
