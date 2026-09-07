@@ -1,4 +1,4 @@
-
+<!-- 
 <h1 id="h1">hello </h1>
 <button onclick="change()">change</button>
 
@@ -10,4 +10,30 @@
 
     function change(){
         h1.textContent="bye"    }
+</script> -->
+
+
+<input id="val">
+<button onclick="add()">ADD</button>
+<ul id="hell">
+    <li>Hello</li>
+    <button onclick="Deleteitem(event)">Delete</button>
+</ul>
+
+<script>
+    var ul=document.getElementById("hell")
+    var input=document.getElementById("val")
+    function add (){
+        var list=document.createElement("li","button")
+        list.innerHTML=input.value+ "<button onclick='Deleteitem(event)'> Delete</button>"
+        ul.append(list)
+    }
+
+    function Deleteitem(event){
+        event.target.parentElement.remove()
+    }
+
+
+
+
 </script>
