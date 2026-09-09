@@ -1,0 +1,29 @@
+<!-- <div>
+    <h1>sam</h1>
+    <h1>jayam</h1>
+</div>
+<script>
+    var div = document.querySelector("div")
+    var h1 =document.createElement("h1")
+    h1.textContent="hello"
+    div.insertAdjacentElement("afterend" ,h1)
+
+</script> -->
+
+<input id="input">
+<button onclick="Add()">Add</button>
+<ul id="list-container">
+    <li>Hello
+        <button>Delete</button>
+    </li>
+</ul>
+
+<script>''
+    var ul=document.getElementById("list-container")
+    var input=document.getElementById("input")
+    function Add(){
+        var list=document.createElement("li")
+        list.textContent=input.value
+        ul.append(list)
+    }
+</script>
