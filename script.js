@@ -18,11 +18,16 @@
 //     console.log("it is not a leap year")
 // }
 
-function wb(noun,adj,verb,adver){
-    var result="";
-    result += "The"+adj+noun+verb+"to the store"+adver
+/* var array =["sam",23];
 
-    return result;
+var array=["sammm",32]
+
+console.log(join.array) */
+
+
+function of(a,b){
+    console.log(a-b);
+
 }
 
-console.log(wb("dog","big","ran","qucik "))
+of(9,4);
