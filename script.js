@@ -25,9 +25,17 @@ var array=["sammm",32]
 console.log(join.array) */
 
 
-function of(a,b){
+/* unction of(a,b){
     console.log(a-b);
 
 }
 
-of(9,4);
+of(9,4);f */
+
+
+function add(a,b){
+    return a+b;
+}
+
+let t=add(5,5);
+console.log(t);
