@@ -32,10 +32,51 @@ console.log(join.array) */
 
 of(9,4);f */
 
-
+/* 
 function add(a,b){
     return a+b;
 }
 
 let t=add(5,5);
-console.log(t);
+console.log(t); */
+
+
+// factorial 
+
+//for loop
+
+// let n=5;
+// let ans=1;
+
+//     for (  let i=1;i<=n;i++)
+//      {
+//     ans *=i;
+// }
+
+// console.log(ans)
+
+// while loop 
+
+/* let n=5;
+let ans=1;
+
+let i=1;
+
+while(i<=n){
+    ans *= i;
+    i++;
+
+}
+console.log(ans) */
+
+// let n=5;
+// let ans=0;
+
+// for(let i=0;i<=n;i++){
+//     ans +=i;
+
+// }
+
+// console.log(ans)
+
+6:03
