@@ -79,4 +79,31 @@ console.log(ans) */
 
 // console.log(ans)
 
-6:03
+// 6:03
+
+
+// let a=5;
+
+// function oddeven(a){
+
+//     if  (a%2==0){
+//         return" even";
+//     }
+//     else{
+//         return "odd"
+//     }
+
+// }
+
+// console.log(oddeven(a));
+
+
+function summ(op,a,b){
+    return op(a,b)
+}
+
+let add= (a,b) => a+b;
+let sub= (a,b) => a-b;
+
+console.log(add(3,4));
+console.log(sub(5,4));
