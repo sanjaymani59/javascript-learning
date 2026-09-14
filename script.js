@@ -98,12 +98,40 @@ console.log(ans) */
 // console.log(oddeven(a));
 
 
-function summ(op,a,b){
-    return op(a,b)
+// function summ(op,a,b){
+//     return op(a,b)
+// }
+
+// let add= (a,b) => a+b;
+// let sub= (a,b) => a-b;
+
+// console.log(add(3,4));
+// console.log(sub(5,4));
+
+// 6:20;;
+
+let oopp =[,'ese','vse']
+let car={
+    name :'sam',
+    age : 56,
+    class: 6,
+    dept:'cse'+ oopp,
+    off(){
+        return this.class+4;
+    }
+
+    
 }
 
-let add= (a,b) => a+b;
-let sub= (a,b) => a-b;
+console.log(car)
 
-console.log(add(3,4));
-console.log(sub(5,4));
+// delete car.class
+// car.age=33
+
+
+console.log(car.off());
+
+
+// 6:45;
+
+
