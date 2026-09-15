@@ -110,7 +110,7 @@ console.log(ans) */
 
 // 6:20;;
 
-let oopp =[,'ese','vse']
+/* let oopp =[,'ese','vse']
 let car={
     name :'sam',
     age : 56,
@@ -132,6 +132,16 @@ console.log(car)
 console.log(car.off());
 
 
-// 6:45;
+// 6:45; */
+
+let user ={
+    name:'sam',
+    age: 34, 
+    weight:35,
+}
+
+for (key in user){
+    console.log(key +"=" +user[key]);
+}
 
 
