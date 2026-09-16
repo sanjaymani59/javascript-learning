@@ -134,7 +134,7 @@ console.log(car.off());
 
 // 6:45; */
 
-let user ={
+/* let user ={
     name:'sam',
     age: 34, 
     weight:35,
@@ -145,3 +145,49 @@ for (key in user){
 }
 
 
+6:56; */
+/* let a ={
+    name : 'a',
+ } 
+
+function User(a){
+    this.name=a;
+    this.age=function (){
+        return 23;
+    }
+}
+
+let sam =new User('sam');
+let jock=new User('jock'); 
+
+console.log(sam);
+console.log(jock)
+console.log(sam.age()) */
+
+/* function add (){
+    this.a=5;
+    this.b=18;
+    this.add = function(c){
+        return this.a+this.b+c;
+    }
+}
+
+let sum = new add();
+
+console.log(sum.add(4)) */
+
+
+//array
+
+let veg =[];
+
+veg=['corrot','beetroot'];
+
+
+veg.push('asm'); //add at last
+veg.unshift('ssm')// add at first
+
+/* // veg.pop()// remove from first
+// veg.shift(0)//remove from first */
+
+console.log(veg)
