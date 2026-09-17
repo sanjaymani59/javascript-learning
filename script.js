@@ -184,10 +184,12 @@ let veg =[];
 veg=['corrot','beetroot'];
 
 
-veg.push('asm'); //add at last
-veg.unshift('ssm')// add at first
+/* veg.push('asm'); //add at last
+veg.unshift('ssm')// add at first */
 
-/* // veg.pop()// remove from first
-// veg.shift(0)//remove from first */
+/* // veg.pop()// remove from last*/
+veg.shift()//remove from first 
 
 console.log(veg)
+
+7;36;55
