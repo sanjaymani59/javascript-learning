@@ -35,5 +35,5 @@ sc[2] ='green';
 console.log(sc.length)
 
 
-https://youtu.be/W6NZfCO5SIk?si=5txd_rWUnZPgcXsg
-2:36
+    // https://youtu.be/W6NZfCO5SIk?si=5txd_rWUnZPgcXsg     ... >>>> completed  <<<<<<<<
+// 2:36

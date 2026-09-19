@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text box</title>
+</head>
+<body>
+
+    <label>
+        enter Your age :
+    </label>
+    <input type="text" id="myText">
+    <button type="submit" id="mySubmmit "> Submit</button>
+    <p id="Result"></p>
+
+    <script>
+
+        const myText=document.getElementById("myText")
+        const mySubmmit=document.getElementById("mySubmmit")
+        const result=document.getElementById("result")
+        let age;
+
+        mySubmmit.onclick=function(){
+            age=myText.value;
+            age=Number(age);
+
+            if(age >= 18){
+            /* // console.log("you are old enoge to vote") */
+                result.textContent="you are old enoge to vote";
+            }
+            else{
+        /* // console.log("you are age is not enouge to vote") */
+                result.textContent="you are age is not enouge to vote";
+        }
+    }
+    </script>
+    
+</body>
+</html>
