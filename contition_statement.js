@@ -26,7 +26,7 @@ if (isStudent=true){
     // if else 
 
 
-         let age=25;
+       /*   let age=25;
         let hasLicenc=false;
 
         if (age<=16){
@@ -40,7 +40,41 @@ if (isStudent=true){
         }
         else{
             console.log("okay to drive")
-        } 
+        }  */
+
+            /* let num=5;
+            if(num %2==0){
+                    console.log(num+": even")
+             }
+
+            // else if (ex){
+
+            // }
+
+            else{
+                console.log(num+":odd")
+            } */
+
+
+            
+
+
+// condition ? expression1: expression2;
+
+let SuB =45
+/* let result=SuB >23 ? "PASS ":"FAIL"; */
+
+let result ='';
+
+if(SuB > 33)
+
+    console.log("pass");
+else
+
+    console.log("fail");
+
+ console.log(result);
+
 
 
 
