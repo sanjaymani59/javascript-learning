@@ -83,7 +83,7 @@ console.log(oddeven(num)) */
 
 // 10. Find Student with Highest Mark
 
-function findtop(Student){
+/* function findtop(Student){
     let topmark = Student[0];
     for (let i=1;i<Student.length;i++){
         if (Student[i].mark > topmark.mark){
@@ -102,4 +102,6 @@ let Student=[{name:"sam",mark:98},
 let result=findtop(Student)
 
 console.log("name", result.name);
-console.log("Mark", result.mark)
+console.log("Mark", result.mark) */
+
+
