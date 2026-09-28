@@ -81,10 +81,26 @@ console.log(num.lastIndexOf(5)) */
 // 🟡 Level 4: Loop Through Arrays
 // 12. Normal for loop
 
-let num=[4,5,6,7,8,5,43];
+/* let num=[4,5,6,7,8,5,43];
 for (let i=0;i<num.length;i++){
-    console.log(num[i]);
-}
+    console.log(num[i]); */
+// }
+
+// 13. for...of
+
+/* let nums=[10,20,30,40];
+for (let num of  nums){
+    console.log(num)
+} */
+
+// 14. forEach()
+
+/* let nums=[10,20,30,40,59];
+nums.forEach(function(num){
+    console.log(num);
+}); */
+
+
 
 
 
