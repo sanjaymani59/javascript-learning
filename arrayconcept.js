@@ -100,11 +100,47 @@ nums.forEach(function(num){
     console.log(num);
 }); */
 
+// 🟡 Level 5: Important Array Methods
 
+// 15. map()
 
+// Creates a new array by changing every element.
 
+/* let num=[2,3,4,5,6];
+let res=num.map(function(num){
+    return num * 2;
+});
 
+console.log(res) */
 
+// 16. filter()
+
+/* let num=[10,20,30,40,50];
+
+let res=num.filter(function(num){
+    return num >20;
+});
+
+console.log(res) */
+
+// 17. find()
+
+/* let num=[10,20,30,40,50];
+let res=num.find(function(num){
+    return num >20;
+});
+
+console.log(res) */
+
+// 18. findIndex()
+
+let num=[10,20,30,40,50];
+
+let res=num.findIndex(function(num){
+    return num>20;
+});
+
+console.log(res);
 
 
 
