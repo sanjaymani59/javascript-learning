@@ -134,22 +134,46 @@ console.log(res) */
 
 // 18. findIndex()
 
-let num=[10,20,30,40,50];
+/* let num=[10,20,30,40,50];
 
 let res=num.findIndex(function(num){
     return num>20;
 });
 
-console.log(res);
+console.log(res); */
 
 
 
+// 🟡 Level 6: Calculations
+// 19. reduce()
+// Used to combine an array into one value.
  
+/* let num=[10,20,30,40];
+let total=num.reduce(function(sum,num){
+    return sum+num;
+
+},0);
+console.log(total); */
 
 
+// 20. some()
+// Checks if at least one element satisfies a condition.
 
+/* let num=[10,15,20,25];
+let result =num.some(function(num){
+    return num>20;
+},0);
 
+console.log(result) */
 
+// 21. every()
+// Checks if all elements satisfy a condition.
+
+let num=[-10,-20,-30,-40];
+let res=num.every(function(num){
+    return num<0;
+});
+console.log(res)
 
 
 
