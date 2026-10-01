@@ -169,14 +169,57 @@ console.log(result) */
 // 21. every()
 // Checks if all elements satisfy a condition.
 
-let num=[-10,-20,-30,-40];
+/* let num=[-10,-20,-30,-40];
 let res=num.every(function(num){
     return num<0;
 });
-console.log(res)
+console.log(res) */
 
 
+// 🟠 Level 7: Modifying Arrays
+// 22. slice()
+// Copies part of an array without changing the original.
 
+/* let num=[10,20,30,40,50];
+
+let res=num.slice(1,4);
+console.log(res); */
+
+
+/* // 23. splice()
+// Adds/removes elements.
+let num=[10,20,30,40,50];
+// 1 → starting index
+// 3 → number of elements to remove
+num.splice(1,3)
+console.log(num)
+ */
+
+
+// 🟠 Level 8: Sorting
+// 24. sort()
+
+/* let names=['kumar','arun','bala'];
+names.sort();
+console.log(names);
+ */
+
+
+// Be careful: normal sort() treats values as strings.
+
+
+let num=[50,20,3,500];
+num.sort(function(a,b){
+    return a-b
+});
+console.log(num)
+
+// descending 
+
+num.sort(function(a,b ){
+    return b-a;
+});
+console.log(num)
 
 
 
