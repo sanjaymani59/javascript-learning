@@ -208,7 +208,7 @@ console.log(names);
 // Be careful: normal sort() treats values as strings.
 
 
-let num=[50,20,3,500];
+/* let num=[50,20,3,500];
 num.sort(function(a,b){
     return a-b
 });
@@ -219,11 +219,32 @@ console.log(num)
 num.sort(function(a,b ){
     return b-a;
 });
-console.log(num)
+console.log(num) */
+
+
+// 🟠 Level 9: Joining and Splitting
+// 25. join()
+// Converts array → string.
+
+/* let fruits=['Apple','banana','mango'];
+let res=fruits.join(',');
+console.log(res) */
+
+// 26. split()
+// Converts string → array.
+
+let text="Apple,Banana,Mango";
+let res=text.split(",");
+console.log(res)
 
 
 
+// Level 10: Spread Operator
 
-
-
+// three DOts (...);
+let frist=[10,20,30];
+let second=[40,50,60];
+// "..."
+let combine=[...frist,...second];
+console.log(combine)
 
