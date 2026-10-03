@@ -233,18 +233,70 @@ console.log(res) */
 // 26. split()
 // Converts string → array.
 
-let text="Apple,Banana,Mango";
+/* let text="Apple,Banana,Mango";
 let res=text.split(",");
 console.log(res)
-
+ */
 
 
 // Level 10: Spread Operator
 
 // three DOts (...);
-let frist=[10,20,30];
+/* let frist=[10,20,30];
 let second=[40,50,60];
 // "..."
 let combine=[...frist,...second];
-console.log(combine)
+console.log(combine) */
 
+
+// 🔴 Level 11: Destructuring
+
+/* let num=[10,20,30];
+let [a,b,c]=num;
+
+console.log(a);
+console.log(b);
+console.log(c); */
+
+
+// 🔴 Level 12: Arrays of Objects
+
+/* let students=[
+    { name:'Arun',mark:80},
+    {name: "bala",mark:95},
+    {name: "Kumar",mark : 70}
+];
+
+console.log(students[0].name);
+console.log(students[1].mark); */
+
+// Filter Objects
+
+/* let passed =students.filter(function(student){
+    return student.mark>=80;
+});
+console.log(passed); */
+
+// 🔴 Level 13: Nested Arrays
+
+/* let num =[
+    [10,20],
+    [30,40],
+    [50,60]
+];
+console.log(num[0][1]);
+console.log(num[2][1]); */
+
+// Beginner
+// Find array length
+let num=[10,20,30]
+/* len=num.length;
+console.log(len);
+// Print all elements
+console.log(num); */
+// Find sum
+summ=0;
+for(let i=0;i<num.length;i++){
+    summ +=num[i];
+}
+console.log(summ)
