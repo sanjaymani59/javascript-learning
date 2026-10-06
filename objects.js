@@ -123,7 +123,7 @@ for (let key in student){
     // 🟡 Level 6 — Object.keys(), values(), entries()
 // Object.keys()
 
-let student={
+/* let student={
     name:'arun',
     age:21,
     mark:87
@@ -132,5 +132,25 @@ console.log(Object.keys(student));
 // Object.values()
 console.log(Object.values(student));
 // Object.entries()
-console.log(Object.entries(student));
+console.log(Object.entries(student)); */
 
+// 🟡 Level 7 — Object Destructuring
+// Instead of:
+
+/* let name =st.name;
+let age=st.age; */ 
+
+// you can Writ
+
+/* let{name,age}=st;
+console.log(name)
+console.log(age); */
+
+
+
+// 🟡 Level 8 — Spread Operator
+
+let st={
+    name:'arun',
+    age:54
+}
