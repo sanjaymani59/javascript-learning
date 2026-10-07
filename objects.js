@@ -150,7 +150,55 @@ console.log(age); */
 
 // 🟡 Level 8 — Spread Operator
 
-let st={
+/* let st={
     name:'arun',
     age:54
-}
+};
+let st2={
+    ...st
+};
+console.log(st2);
+console.log(st) */
+
+// 🟠 Level 9 — Array of Objects
+/* 
+let st=[
+    {
+        name:'Arun',
+        mark:80
+    },
+    {
+        name:'rahul',
+        mark:90
+    },
+    {
+        name:'kumar',
+        mark:75
+    }
+
+];
+
+console.log(st[0].name); */
+
+
+// 🟠 Level 10 — Object + Array Methods
+// filter()
+
+
+let st=[
+    {
+        name:'Arun',
+        mark:80
+    },
+    {
+        name:'rahul',
+        mark:90
+    },
+    {
+        name:'kumar',
+        mark:75
+    }
+];
+
+let res=st.filter(st=> st.mark>80);
+console.log(res);
