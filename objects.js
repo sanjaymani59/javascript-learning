@@ -184,7 +184,7 @@ console.log(st[0].name); */
 // 🟠 Level 10 — Object + Array Methods
 // filter()
 
-
+/* 
 let st=[
     {
         name:'Arun',
@@ -202,3 +202,25 @@ let st=[
 
 let res=st.filter(st=> st.mark>80);
 console.log(res);
+ */
+
+// 🔴 Level 11 — Nested Objects
+
+
+let student={
+    name:'arun',
+
+    education:{
+        degree:"be",
+        dept:'cse',
+
+
+        college: {
+            name:'adb',
+            city:'chennai'
+        }
+    }
+
+}
+
+console.log(student.education.college.name)
