@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping Bill Calculator </title>
+</head>
+<body>
+    <h2>Shopping Bill Genterator </h2>
+
+    <button onclick="showBill()">Generate Bill</button>
+
+    <div id="output"></div>
+
+    <script>
+        let products=[
+            {name:'pen',price:10, quantity:2},
+            {name:'NoteBook ',price:50, quantity:3},
+            {name:'Pencil',price:5, quantity:4},
+        ];
+
+
+        function showBill(){
+            let total=0;
+            let output=' ';
+            for(let product in products){
+                let amount =product.price *product.quantity;
+
+                total=total+amount;
+
+                output+= product.name + "-$"+ product.price +" x" + product.quantity+"=$" + amount+"<br>";
+
+                let discount =total*0.10;
+
+                let finalAmount= total-discount;
+
+                output+= "<hr>";
+
+                output += "Total ;$" +total+"<br>";
+                output += " Discount (10%)" +discount+"<br>";
+                output += "<b> Final Amount :$" +finalAmount+"<br>";
+
+
+                document.getElementById("output").innerHTML=output;
+
+                
+
+            }
+
+            
+        }
+        
+    </script>
+    
+</body>
+</html>

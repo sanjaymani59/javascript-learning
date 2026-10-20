@@ -13,7 +13,7 @@
 </script> -->
 
 
-<input id="val">
+<!-- <input id="val">
 <button onclick="add()">ADD</button>
 <ul id="hell">
     <li>Hello</li>
@@ -32,8 +32,39 @@
     function Deleteitem(event){
         event.target.parentElement.remove()
     }
+ -->
 
 
 
+<!-- </script> -->
 
-</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pratice </title>
+</head>
+<body>
+    <h2 id="message"></h2>
+
+    <h2 id="result"></h2>
+    <button onclick="showMessage ()">Click Me</button>
+
+    <script>
+        function showMessage(){
+            // let text = "i am learning javascript :"
+            let text="Java is a easy!!"
+
+            let text1="i can write javascript code !!"
+
+            document.getElementById("message").innerHTML="i am learning javascript !!!!!!!!!";
+
+            document.getElementById("result").textContent=text1;
+
+        }
+    </script>
+    
+</body>
+</html>

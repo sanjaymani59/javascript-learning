@@ -1,4 +1,4 @@
-// let name ='sam';
+/* // let name ='sam';
 // const name='samjayam'
 
 // let age=39;
@@ -30,9 +30,9 @@ console.log(intersatRate) */
 
 
 
-let sc = ['red','blue'];
-sc[2] ='green';
-console.log(sc.length)
+// let sc = ['red','blue'];
+// sc[2] ='green';
+// console.log(sc.length) 
 
 
     // https://youtu.be/W6NZfCO5SIk?si=5txd_rWUnZPgcXsg     ... >>>> completed  <<<<<<<<
