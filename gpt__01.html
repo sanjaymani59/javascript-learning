@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list</title>
+    <style>
+        body{
+            font-family: arial;
+            text-align: center;
+            margin-top: 50px    ;
+        }
+        input{
+            padding: 10px;
+        }
+
+        button{
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        li{
+            margin:10px;
+
+        }
+
+        .completed{
+            text-decoration: line-through;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+    <h2> My to list </h2>
+    
+    <input type="text" id="taskInput" placeholder="Enter your task :">
+
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+    <script>
+        function addTask(){
+            let input= document.getElementById("taskInput");
+
+            let task =input.value.trim();
+
+            if(task ===""){
+                alert("please enter a task!!~~");
+                return;
+            }
+
+            let li = document.createElement("li");
+
+            let span = document.createElement("span");
+
+            span.textContent=task;
+
+            span.onclick=function(){
+                span.classList.toggle("completed")
+            };
+
+            let deleteButton =document.createElement("button");
+
+            deleteButton.textContent="Delete";
+
+            deleteButton.onclick=function(){
+                li.remover();
+            };
+
+            li.appendChild(span);
+            li.appendChild(deleteButton);
+
+            document.getElementsByName("taskList").appendChild(li);
+
+            input.value="";
+        }
+    </script>
+
+</body>
+</html>
