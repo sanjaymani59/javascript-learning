@@ -8,9 +8,30 @@
     </title>
 </head>
 <body>
-    <h1>HELLO WORLD</h1>
+    <h2 id="like">0</h2>
+    <button onclick="like()">like</button>
+
+    <button onclick="Delete()">delete</button>
     <script>
-        console.log("hello world")
+    let count=0;
+
+    function like() {
+        count++;
+        show();
+       
+       
+    }
+
+    function Delete() {
+        if(count>0){
+            count--;
+        }
+        show();
+    }
+
+    function show(){
+        document.getAnimations("like").innerHTML="()()"+count;
+    }
     </script>
     
 </body>

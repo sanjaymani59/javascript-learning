@@ -179,7 +179,7 @@ console.log(sum.add(4)) */
 
 //array
 
-let veg =[];
+/* let veg =[];
 
 veg=['corrot','beetroot'];
 
@@ -188,8 +188,19 @@ veg=['corrot','beetroot'];
 veg.unshift('ssm')// add at first */
 
 /* // veg.pop()// remove from last*/
-veg.shift()//remove from first 
+/* veg.shift()//remove from first 
 
-console.log(veg)
-
+console.log(veg) */
+ 
 7;36;55
+
+
+/* let str1="srive not be a success";
+let str2="but rather to be a value";
+
+str1.slice(4,10);
+str1.toUpperCase();
+str1.toLowerCase();
+
+str1.trim(); */
+ 
