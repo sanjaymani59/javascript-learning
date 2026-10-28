@@ -104,4 +104,37 @@ let result=findtop(Student)
 console.log("name", result.name);
 console.log("Mark", result.mark) */
 
+/* let firstName='ramya'
+let lastName='mural'
+let  city='chennai'
 
+console.log(firstName+"  " +lastName+"  lives in " + city);
+
+console.log(`${firstName} ${lastName} lives in  ${city}`) */
+
+
+/* let total=0;
+let cart=(20,40,10,20,5);
+
+for(let i=0;i<cart.length;i++){
+    total = total+ i;
+    
+}
+
+console.log("Total :" ,total); */
+
+
+function checkPalindrome(word){
+    let reversed =word.split("").reverse().join("");
+
+    if(word.toLowerCase()===reversed.toLowerCase()){
+        console.log("palindrome");
+    }
+    else{
+        console.log("Not a palindrome ")
+    }
+}
+
+checkPalindrome("madam")
+checkPalindrome("hello")
+checkPalindrome('level')
