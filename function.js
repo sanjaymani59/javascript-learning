@@ -124,7 +124,7 @@ for(let i=0;i<cart.length;i++){
 console.log("Total :" ,total); */
 
 
-function checkPalindrome(word){
+/* function checkPalindrome(word){
     let reversed =word.split("").reverse().join("");
 
     if(word.toLowerCase()===reversed.toLowerCase()){
@@ -137,4 +137,14 @@ function checkPalindrome(word){
 
 checkPalindrome("madam")
 checkPalindrome("hello")
-checkPalindrome('level')
+checkPalindrome('level')  */
+
+/* let text="hello to all "
+let character=text.at(4)
+console.log(character) */
+
+let text="hello to all "
+let character=text[6];
+
+console.log(character)
+
