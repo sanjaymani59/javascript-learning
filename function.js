@@ -143,8 +143,58 @@ checkPalindrome('level')  */
 let character=text.at(4)
 console.log(character) */
 
-let text="hello to all "
+/* let text="hello to all "
 let character=text[6];
 
-console.log(character)
+console.log(character) */
 
+
+let array=['a','b' ,'c' ,'d']
+
+/* array.push('s')
+console.log(array)
+console.log(array.pop())
+
+console.log(array.shift())
+console.log(array)
+
+console.log(array.unshift('r'))
+console.log(array) */
+
+/* delete array[2]
+console.log(array) */
+
+/* array.splice(2,1)
+console.log(array)
+ */
+/* array.splice(1,1,'m')
+console.log(array) 
+
+array.splice(1,2,'x','v') */
+
+/* array.splice(1,0,'h')
+console.log(array)
+ */
+// console.log(array.slice(1,3))
+
+/* array.reverse()
+console.log(array) */
+
+/* 
+let str = array.join()
+console.log(str) */
+
+/* let str = "a,r,t,d,s"
+console.log(str.split(','))
+ */
+let firstArr =[2,4,6]
+let secondArr=[5,6,7]
+
+/* let joinedArr =[firstArr,secondArr]
+console.log(joinedArr)
+ */
+/* let joined =[...firstArr,...secondArr]
+console.log(joined) */
+
+joinedArr =firstArr.concat(secondArr)
+console.log(joinedArr)
