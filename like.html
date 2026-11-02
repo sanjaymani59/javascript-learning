@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>like </h2>
+
+    <button onclick="like()">like</button>
+    <p id="count">likes :</p>
+    <script>
+        let likes=0;
+
+        function like(){
+            likes++;
+            document.getElementById("count").innerHTML="likes:" +likes;
+        }
+    </script>
+</body>
+</html>
