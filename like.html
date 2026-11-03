@@ -10,12 +10,21 @@
 
     <button onclick="like()">like</button>
     <p id="count">likes :</p>
+
     <script>
+
+            function like(){
+                alert("hello welcome ")
+            }
+
         let likes=0;
 
         function like(){
             likes++;
             document.getElementById("count").innerHTML="likes:" +likes;
+            if(like>9){
+                
+            }
         }
     </script>
 </body>
